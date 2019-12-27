@@ -24,6 +24,9 @@ android {
 }
 
 dependencies {
+    // Will implement the feature_about into the application module
+    implementation project(':feature_about')
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
